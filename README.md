@@ -4,6 +4,8 @@ En este repo esta los archivos y configuraciones para el despliegue del ejercici
 
 https://medium.com/@diogo.fg.pinheiro/simple-to-do-list-app-with-node-js-and-mongodb-chapter-1-c645c7a27583
 
+Utilizando tecnologias node.js, Mongodb, docker + kubernetes
+
 ## Dockerfile
 
 Revise la construcción en docker [Dokerfile.yaml](templates/Dokerfile.yaml)
