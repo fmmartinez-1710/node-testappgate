@@ -2,7 +2,7 @@ version: '3'
 
 services:
   node-service:
-    image: "fabianmartinezvass/test-appgate:node-testappgate"
+    image: "fabianmartinezvass/test-appgate:latest"
     ports:
         - "4000:4000"
     restart: unless-stopped

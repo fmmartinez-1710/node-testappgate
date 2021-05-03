@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: fabianmartinezvass/test-appgate:node-testappgate
+        image: fabianmartinezvass/test-appgate:latest
         ports:
         - containerPort: 4000
