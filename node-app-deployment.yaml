@@ -1,0 +1,21 @@
+apiVersion: appnode/v1
+kind: Deployment
+metadata:
+  name: node-app-deployment
+  labels:
+    app: node-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: node-app
+  template:
+    metadata:
+      labels:
+        app: node-app 
+    spec:
+      containers:
+      - name: node-app
+        image: fabianmartinezvass/test-appgate:node-testappgate
+        ports:
+        - containerPort: 4000
