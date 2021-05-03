@@ -28,11 +28,11 @@ EXPOSE 4000
 
 CMD [ "node", "index.js" ]
 
-##Las imágenes generadas quedaron en el siguiente DockerHub.
+Las imágenes generadas quedaron en el siguiente DockerHub.
 
 https://hub.docker.com/r/fabianmartinezvass/test-appgate
 
-##Archivos despliegue Kubernetes:
+Archivos despliegue Kubernetes:
 
 Creación de Pod de app en node + docker  [node-app-deployment.yaml](node-app-deployment.yaml)
 
