@@ -8,7 +8,7 @@ Utilizando tecnologias node.js, Mongodb, docker + kubernetes
 
 ## Dockerfile
 
-Revise la construcción en docker [Dokerfile.yaml](Dokerfile)
+Revise la construcción en docker [Dokerfile.yaml](Dockerfile)
 
 ## Las imágenes generadas quedaron en el siguiente DockerHub.
 
