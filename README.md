@@ -22,4 +22,4 @@ La creación de Kubernetes Service  [node-app-service.yaml](node-app-service.yam
 
 ## Archivos despliegue docker-compose:
 
-La creación de docker-compose Service  [docker-compose.yaml](docker-compose.yaml)
+La creación de docker-compose Service  [docker-compose.yml](docker-compose.yml)
